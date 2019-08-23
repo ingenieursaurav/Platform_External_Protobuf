@@ -974,7 +974,7 @@ jspb.utils.byteSourceToUint8Array = function(data) {
   if (typeof Buffer != 'undefined' && data.constructor === Buffer) {
     return /** @type {!Uint8Array} */ (
         new Uint8Array(/** @type {?} */ (data)));
-   }
+  }
 
   if (data.constructor === Array) {
     data = /** @type {!Array<number>} */(data);
